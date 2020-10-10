@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>今のあなたへアドバイスしてくれるサイト</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+            <div class="question">
+                <h1>あなたの今の気分を教えてください！</h1>
+                <ul>
+                    <li>
+                        <span>Q1. 今すぐ布団に行って寝たい</span>
+                        <label><input type="radio" name="q01" class="typeA yes pr2"> YES</label>　
+                        <label><input type="radio" name="q01" class="typeB no"> NO</label>
+                    </li>
+                    <li>
+                        <span>Q2. お腹が空いたのでごはんを食べたい</span>
+                        <label><input type="radio" name="q02" class="typeC yes pr1"> YES</label>　
+                        <label><input type="radio" name="q02" class="typeD no"> NO</label>
+                    </li>
+                    <li>
+                        <span>Q3. どこかへショッピングをしに行きたい</span>
+                        <label><input type="radio" name="q03" class="typeE yes pr1"> YES</label>　
+                        <label><input type="radio" name="q03" class="typeF no"> NO</label>
+                    </li>
+                    <li>
+                        <span>Q4. 机に向かって勉強したい</span>
+                        <label><input type="radio" name="q04" class="typeG yes pr2"> YES</label>　
+                        <label><input type="radio" name="q04" class="typeH no"> NO</label>
+                    </li>
+                    <li>
+                        <span>Q5. 体がだるくて何もしたくない</span>
+                        <label><input type="radio" name="q05" class="typeI yes pr2"> YES</label>　
+                        <label><input type="radio" name="q05" class="typeJ no"> NO</label>
+                    </li>
+                </ul>
+                <button>診断する</button>
+            </div>
+
+            <div class="result resultA">
+                <h2>今のあなたへのアドバイスは...<br><strong>あなたは怠惰です</strong></h2>
+                <p>あなたには気力がありません今すぐ自分の部屋を出てとりあえず外へ出ましょう</p>
+            </div>
+            <div class="result resultB">
+                <h2>今のあなたへのアドバイスは...<br><strong>あなたはわがままです</strong></h2>
+                <p>あなたはなにかをしたい欲が強いです。欲を抑えることを覚えましょう</p>
+            </div>
+            <div class="result resultC">
+                <h2>今のあなたへのアドバイスは...<br><strong>あなたは自分をよく見せようとしています</strong></h2>
+                <p>このサイトを見ている時点で勉強したいと思ってはいないでしょう。ですがあなたはyesを押しました。嘘をつくのはやめましょう</p>
+            </div>
+            <div class="result resultD">
+                <h2>今のあなたへのアドバイスは...<br><strong>矛盾が生じています</strong></h2>
+                <p>適当に入力しないでください!もう一度入力してください。</p>
+            </div>
+            <div class="result resultE">
+                <h2>今のあなたへのアドバイスは...<br><strong>もう少し欲を持ちましょう</strong></h2>
+                <p>特徴のない解答でしたので特にアドバイスはありません。</p>
+            </div>
+
+        </div>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="app.js">
+
+        </script>
+    </body>
+
+</html>
